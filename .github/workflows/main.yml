@@ -3,7 +3,7 @@ on: [pull_request]
 
 jobs:
 build:
-name: Danger JS
+name: "Danger JS"
 runs-on: MacOS-latest
 steps:
 - uses: actions/checkout@v1
